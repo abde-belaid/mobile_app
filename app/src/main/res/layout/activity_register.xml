@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/theme_color_2"
+    tools:context=".Register">
+
+    <!-- Le label d'inscription -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_register_text"
+        android:textColor="#424242"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        />
+
+<!-- le champ de texte de nom -->
+    <EditText
+        android:id="@+id/inp_name"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_back_white_10"
+        android:paddingEnd="0dp"
+        android:paddingStart="20dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="@string/name_hint"/>
+
+    <!-- le champ de texte de numero -->
+    <EditText
+        android:id="@+id/inp_phone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_back_white_10"
+        android:paddingEnd="0dp"
+        android:paddingStart="20dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="@string/phone_hint"/>
+
+    <!-- le champ de texte d'email -->
+    <EditText
+        android:id="@+id/inp_email"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_back_white_10"
+        android:paddingEnd="0dp"
+        android:paddingStart="20dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="@string/email_hint"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/btn_register_text"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+android:background="@drawable/round_back_theme_1000"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chat_app</string>
+    <string name="name_hint">Nom...</string>
+    <string name="phone_hint">Numero...</string>
+    <string name="email_hint">Email...</string>
+    <string name="btn_register_text">S\'inscrire</string>
+    <string name="title_activity_chat">chat</string>
+</resources>
